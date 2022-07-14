@@ -8,7 +8,7 @@ This program was primarily written in Python, however I had also used Excel and 
 ### Explanation
 The program asks for a specific player and what stats that one would like to compare (in the .png files in this repository, I used field goal percentage as an example comparison), and then print out a chart that showed the stat from the regular seasons in comparison to the stat in the playoff season.
 <br />
-In order to see the comparisons between the statistics, I wrote a Python script that took used a scrapper to obtain data from Basketball Reference, a website that holds
+In order to see the comparisons between the statistics, I wrote a Python script that utilized a scrapper to obtain data from Basketball Reference, a website that holds
 almost all the NBA statistics for every player. The scrapper had allowed one to search for any specific player, so I had used it to create two Pandas Dataframes; one for all of their regular seasons and one for seasons they made the playoffs. The two were then cross-referenced so the first dataframe would only include the seasons they made the playoffs. The program would then scan to see if the player had been traded during that season or not to a different team. Finally, I used Matplotlib to create the settings and create the chart, as well as the ability for the chart to be saved as a png. 
 
 ### Issues Encountered
